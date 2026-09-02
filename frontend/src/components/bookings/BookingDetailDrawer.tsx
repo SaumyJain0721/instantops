@@ -88,7 +88,7 @@ export function BookingDetailDrawer({
                       <option value="">Select next status</option>
                       {getAllowedNextStatuses(booking.status).map(status => (
                         <option key={status} value={status}>
-                          {status.replaceAll('_', ' ')}
+                          {status.replace(/_/g, " ")}
                         </option>
                       ))}
                     </select>
