@@ -1,4 +1,4 @@
-import { useEffect, useState, type ReactNode } from 'react'
+import { useEffect, useState, } from 'react'
 import { X, Wrench, Car, User, Phone, Calendar, DollarSign, FileText, CheckCircle2 } from '@/icons'
 import type { BookingDetail, BookingStatus } from '@/api/types'
 import { BookingStatusBadge } from '@/components/ui/StatusBadge'
