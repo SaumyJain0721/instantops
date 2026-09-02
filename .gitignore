@@ -1,0 +1,18 @@
+# Build output
+backend/target/
+frontend/dist/
+frontend/node_modules/
+
+# IDE / OS
+.vscode/
+.idea/
+*.iml
+.DS_Store
+
+# Local secrets / environment
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
